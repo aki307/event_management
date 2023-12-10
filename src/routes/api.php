@@ -4,7 +4,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Http\Controllers\RegisteredUserController;
 use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
-
+use App\Http\Controllers\UserTypeController;
+use App\Http\Controllers\GroupController;
 
 
 // use App\Http\Controllers\Auth\RegisteredUserController;
@@ -23,6 +24,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-// Route::post('/register', [RegisteredUserController::class, 'store']);
 
-// Route::post('/login' , [AuthenticatedSessionController::class, 'store']);
+
+
+Route::get('/user-types', [UserTypeController::class, 'index']);
+Route::get('/groups', [GroupController::class, 'index']);

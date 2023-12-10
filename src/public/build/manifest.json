@@ -1,0 +1,43 @@
+{
+  "resources/js/Pages/Register.jsx": {
+    "file": "assets/Register-9e02fb5f.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Register.jsx"
+  },
+  "resources/js/Pages/UserRegisterComplete.jsx": {
+    "file": "assets/UserRegisterComplete-fd21a1c7.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/UserRegisterComplete.jsx"
+  },
+  "resources/js/Pages/Welcome.jsx": {
+    "file": "assets/Welcome-74f59b63.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Welcome.jsx"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-4e5c0698.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.jsx": {
+    "css": [
+      "assets/app-4e5c0698.css"
+    ],
+    "dynamicImports": [
+      "resources/js/Pages/Register.jsx",
+      "resources/js/Pages/UserRegisterComplete.jsx",
+      "resources/js/Pages/Welcome.jsx"
+    ],
+    "file": "assets/app-415085fe.js",
+    "isEntry": true,
+    "src": "resources/js/app.jsx"
+  }
+}

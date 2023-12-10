@@ -17,3 +17,14 @@ Route::get('/', function () {
     return inertia('Welcome');
 });
 
+Route::get('register', function () {
+    return inertia('Register');
+});
+
+Route::get('/user-register-complete', function () {
+    return Inertia::render('UserRegisterComplete');
+});
+
+Route::get('/dashboard', function () {
+    return Inertia::render('Dashboard');
+})->middleware('auth');
