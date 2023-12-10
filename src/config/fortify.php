@@ -76,7 +76,7 @@ return [
     |
     */
 
-    'home' => RouteServiceProvider::HOME,
+    'home' => '/user-register-complete',
 
     /*
     |--------------------------------------------------------------------------
